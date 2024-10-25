@@ -1,0 +1,149 @@
+# Dependencies
+node_modules/
+**/node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+**/coverage/
+.nyc_output
+
+# Production builds
+/build
+**/build/
+/dist
+**/dist/
+.next
+out/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+**/.env
+**/.env.*
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+logs
+*.log
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# IDE - IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# IDE - WebStorm
+.idea/
+.idea_modules/
+
+# Misc IDE
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Hardhat files
+cache/
+artifacts/
+typechain/
+typechain-types/
+
+# Solidity coverage
+coverage/
+coverage.json
+
+# blockchain
+.secret
+
+# Docker
+.docker/
+docker-compose.override.yml
+
+# Frontend specific
+/frontend/build/
+/frontend/.cache/
+/frontend/public/hot
+
+# Backend specific
+/backend/**/dist/
+/backend/**/.cache/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Local configuration files
+config.local.js
+config.dev.js
+
+# Package files
+package-lock.json
+**/package-lock.json
+yarn.lock
+**/yarn.lock
+
+# Compiled binary addons
+build/Release
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
